@@ -1,0 +1,61 @@
+# do Processor.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Processor3
+# 
+# Top level modules:
+# 	Processor3
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Processor3_vlg_sample_tst
+# -- Compiling module Processor3_vlg_check_tst
+# ** Warning: Processor.vt(224): (vlog-2576) [BSOB] - Bit-select into 'R1_expected_prev' is out of bounds.
+# 
+# ** Warning: Processor.vt(224): (vlog-2576) [BSOB] - Bit-select into 'R1_prev' is out of bounds.
+# 
+# ** Warning: Processor.vt(224): (vlog-2576) [BSOB] - Bit-select into 'R1_expected_prev' is out of bounds.
+# 
+# ** Warning: Processor.vt(225): (vlog-2576) [BSOB] - Bit-select into 'R1_expected_prev' is out of bounds.
+# 
+# ** Warning: Processor.vt(225): (vlog-2576) [BSOB] - Bit-select into 'last_R1_exp' is out of bounds.
+# 
+# ** Warning: Processor.vt(234): (vlog-2576) [BSOB] - Bit-select into 'last_R1_exp' is out of bounds.
+# 
+# ** Warning: Processor.vt(234): (vlog-2576) [BSOB] - Bit-select into 'R1_expected_prev' is out of bounds.
+# 
+# ** Warning: Processor.vt(315): (vlog-2576) [BSOB] - Bit-select into 'Student_id_expected_prev' is out of bounds.
+# 
+# ** Warning: Processor.vt(315): (vlog-2576) [BSOB] - Bit-select into 'Student_id_prev' is out of bounds.
+# 
+# ** Warning: Processor.vt(315): (vlog-2576) [BSOB] - Bit-select into 'Student_id_expected_prev' is out of bounds.
+# 
+# ** Warning: Processor.vt(316): (vlog-2576) [BSOB] - Bit-select into 'Student_id_expected_prev' is out of bounds.
+# 
+# ** Warning: Processor.vt(316): (vlog-2576) [BSOB] - Bit-select into 'last_Student_id_exp' is out of bounds.
+# 
+# ** Warning: Processor.vt(325): (vlog-2576) [BSOB] - Bit-select into 'last_Student_id_exp' is out of bounds.
+# 
+# ** Warning: Processor.vt(325): (vlog-2576) [BSOB] - Bit-select into 'Student_id_expected_prev' is out of bounds.
+# 
+# -- Compiling module Processor3_vlg_vec_tst
+# 
+# Top level modules:
+# 	Processor3_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.Processor3_vlg_vec_tst 
+# Loading work.Processor3_vlg_vec_tst
+# Loading work.Processor3
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_clkctrl
+# Loading cycloneii_ver.cycloneii_mux41
+# Loading cycloneii_ver.cycloneii_ena_reg
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading work.Processor3_vlg_sample_tst
+# Loading work.Processor3_vlg_check_tst
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# Simulation passed !
+# ** Note: $finish    : Processor.vt(417)
+#    Time: 160 ns  Iteration: 0  Instance: /Processor3_vlg_vec_tst/tb_out
